@@ -23,6 +23,11 @@ p {
   margin: 10px 0px 0px 0px;
   color: #353535;
 }
+.SunText{
+  font-size: 32px;
+  margin: 20px 0px 0px 0px;
+}
+
 
 body{
   font-family: "Inter", sans-serif;
