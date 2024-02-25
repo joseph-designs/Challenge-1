@@ -47,7 +47,7 @@ img {
 .CardSmall {
     width: 100px;
     height: 100px;
-    padding: 55px 45px 1px 45px;
+    margin: 55px 45px 1px 45px;
 }
 
 /* All flex items under here */
