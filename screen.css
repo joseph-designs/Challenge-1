@@ -38,6 +38,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     max-width: 60%;
+    max-height: 600px;
     
     
 }
