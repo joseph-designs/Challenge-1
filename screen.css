@@ -29,6 +29,7 @@ body{
   background-color: #353535;
 }
 img {
+   object-fit: contain; 
    border-radius: 100%;
 }
 
@@ -45,15 +46,7 @@ img {
 }
 
 /* All flex items under here */
-.flex-container {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    max-width: 60%;
-    
-    
-}
+
 .flex-item-large {
   
    background-color: #B5B5B5;
@@ -63,8 +56,14 @@ img {
    text-align: center;
    border-radius: 14px;
    float: left;
-   
-  
+}
+
+ .flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 60%; 
 
 }
 .flex-item-small {
@@ -75,3 +74,5 @@ img {
     text-align: center;
     border-radius: 14px;
 }
+    
+  
