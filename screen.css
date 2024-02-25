@@ -35,7 +35,10 @@ body{
 .flex-container {
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    max-width: 60%;
+    
     
 }
 .flex-item-large {
@@ -43,20 +46,19 @@ body{
    background-color: #B5B5B5;
    width: 400px;
    height: 580px;
-   margin: 35px 35px 0px 50px;
+   margin: 35px 0px 0px 50px;
    text-align: center;
    border-radius: 14px;
+   float: left;
    
   
 
 }
 .flex-item-small {
-    flex-wrap: wrap;
     background-color: #B5B5B5;
     width: 190px;
     height: 270px;
-    margin: 35px;
+    margin: 35px 0px 6px 35px;
     text-align: center;
     border-radius: 14px;
-  
 }
