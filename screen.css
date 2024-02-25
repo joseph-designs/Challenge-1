@@ -10,6 +10,11 @@ body{
   font-family: "Inter", sans-serif;
 }
 
+.CardLarge {
+    width: 290px;
+    height: 290px;
+}
+
 .CardSmall {
     width: 100px;
     height: 100px;
