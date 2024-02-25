@@ -10,6 +10,11 @@ body{
   font-family: "Inter", sans-serif;
 }
 
+.CardSmall {
+    width: 100px;
+    height: 100px;
+}
+
 /* All flex items under here */
 .flex-container {
     display:flex;
