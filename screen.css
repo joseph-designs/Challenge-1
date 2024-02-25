@@ -37,8 +37,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    max-width: 60%;
-    max-height: 600px;
+    max-width: 1000px;
     
     
 }
